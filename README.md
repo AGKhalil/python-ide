@@ -2,10 +2,20 @@
 A docker image for python development on the command line.
 
 ## Installation
-Based on your desired usage you can add the following to your `.bashrc`: 
+Based on your desired usage you can add the following to your `.bashrc`. Don't forget to source your `.bashrc`!
+### All three
 To use the full image with `neovim`, `tmux`, and `pudb`:
-```alias dev-ide=`docker run -it --rm -v $(pwd):/src --workdir /src agkhalil/python-ide:latest````
-Then go to your directory of choice and simply run `dev-ide`
+```
+alias dev-ide=`docker run -it --rm -v $(pwd):/src --workdir /src agkhalil/python-ide:latest`
+```
+Then go to your directory of choice and simply run `dev-ide`. You can now run any of the three.
+### Just `neovim`
+```
+function nvim {
+	docker run -it --rm -v $(pwd):/src --workdir /src agkhalil/python-ide:latest nvim "$1"
+}
+```
+Now you can just run `nvim` like you would with any text editor.
 
 ## Features
 This image includes three main aspects:
