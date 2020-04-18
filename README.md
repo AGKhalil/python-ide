@@ -1,6 +1,13 @@
 # python-ide
 A docker image for python development on the command line.
 
+## Example
+The images below are of my code of a sperate repo using `python-ide`.
+### `neovim` only
+![neovim_only](./neovim_only)
+### `neovim`, `tmux`, and `pudb3`
+![all_three](./all_three)
+
 ## Installation
 Based on your desired usage you can add the following to your `.bashrc`. Don't forget to source your `.bashrc`!
 ### All three
