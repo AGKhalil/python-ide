@@ -56,10 +56,10 @@ The installed packages are:
 - `:Isort` - fixes imports
 
 ### `tmux` mappings
-- `C-b` is replaced with `C-;`
+- `C-b` is replaced with `C-<space>`
 - arrow keys are replaced with `h,j,k,l` 
-- `C-;` + `h,j,k,l` to switch pane
-- `C-;` + `C-h,j,k,l` to resize panes
-- `C-;` + `s` - split horizontally
-- `C-;` + `v` - split vertically
-- all other commands as usual except with `C-;` instead of `C-b`
+- `C-<space>` + `h,j,k,l` to switch pane
+- `C-<space>` + `C-h,j,k,l` to resize panes
+- `C-<space>` + `s` - split horizontally
+- `C-<space>` + `v` - split vertically
+- all other commands as usual except with `C-<space>` instead of `C-b`
