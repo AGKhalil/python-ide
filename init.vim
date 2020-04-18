@@ -3,7 +3,6 @@ let mapleader = ";"
 
 call plug#begin('~/.local/share/nvim/plugged')
 
-Plug 'davidhalter/jedi-vim'
 if has('nvim')
   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 else
@@ -16,7 +15,6 @@ Plug 'mg979/vim-visual-multi', { 'branch': 'master' }
 Plug 'vim-airline/vim-airline'
 Plug 'jiangmiao/auto-pairs'
 Plug 'scrooloose/nerdcommenter'
-Plug 'sbdchd/neoformat'
 Plug 'davidhalter/jedi-vim'
 Plug 'scrooloose/nerdtree'
 Plug 'dense-analysis/ale'
