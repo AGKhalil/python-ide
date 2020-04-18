@@ -4,9 +4,10 @@ A docker image for python development on the command line.
 ## Example
 The images below are of my code of a sperate repo using `python-ide`.
 ### `neovim` only
-![neovim_only](./neovim_only)
+![neovim_only](./nvim_only.png)
 ### `neovim`, `tmux`, and `pudb3`
-![all_three](./all_three)
+Here `tmux` used for creating and splitting panes. `nvim` up top, `pudb3` bottom left for debugging, and empty terminal bottom right.
+![all_three](./all_three.png)
 
 ## Installation
 Based on your desired usage you can add the following to your `.bashrc`. Don't forget to source your `.bashrc`!
