@@ -14,7 +14,7 @@ Based on your desired usage you can add the following to your `.bashrc`. Don't f
 ### All three
 To use the full image with `neovim`, `tmux`, and `pudb3`:
 ```
-alias dev-ide=`docker run -it --rm -v $(pwd):/src --workdir /src agkhalil/python-ide:latest`
+alias dev-ide="docker run -it --rm -v $(pwd):/src --workdir /src agkhalil/python-ide:latest"
 ```
 Then go to your directory of choice and simply run `dev-ide`. You can now run any of the three.
 ### Just `neovim`
